@@ -1,0 +1,26 @@
+.product {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#edit {
+    box-shadow: 2px 2px 1px black;
+    background-color: orange;
+    width: 150px;
+    margin: 3px;
+}
+
+#delete {
+    box-shadow: 2px 2px 1px black;
+    background-color: red;
+    color: white;
+    width: 150px;
+    margin: 3px;
+}
+
+img {
+    width: 150px;
+    margin:5px;
+}

@@ -1,0 +1,30 @@
+<h1>Create a New Product</h1>
+
+<form (submit)="onSubmit()" #formObject='ngForm'>
+<h4>Title 
+  <input 
+  type="text" 
+  name="title" 
+  required
+  minlength="4" 
+  [(ngModel)]='newP.title'>
+</h4>
+<h4>Price
+  <input 
+  type="text" 
+  name="price" 
+  required 
+  [(ngModel)]='newP.price'>
+</h4>
+<h4>Image URL
+  <input 
+  type="text" 
+  name="image"  
+  [(ngModel)]='newP.image'>
+</h4>
+  <input 
+  type="submit"
+  value="Create"
+  [disabled]='formObject.invalid'
+  >
+</form>
